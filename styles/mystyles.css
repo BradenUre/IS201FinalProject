@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(191, 185, 199);
+}
+.homeBG {
+    background-image: url('../images/bucees-store-front.jpeg');
+    background-size: auto;
+    background-position: middle;
+    background-repeat: no-repeat;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {
+        text-decoration:  underline;
+    }
+
+.box1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 10px;
+    margin: 100;
+    }
+
+a:visited{
+     color: rgb(85, 85, 95);
+}
