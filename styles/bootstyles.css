@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(228, 225, 225);
   }
   
   li {
@@ -20,7 +20,7 @@
   }
   
   li a:hover {
-    background-color: rgb(111, 18, 173);
+    background-color: rgb(18, 71, 151);
   }
 
   .common {
@@ -30,7 +30,7 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: rgb(79, 128, 235);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -39,7 +39,7 @@ body{
     left: 5px;
     right: 5px;
     height: 50px;
-    border-bottom: solid 1px #555555;
+    border-bottom: solid 1px #d4cfcf;
     resize: horizontal;
 }
 
@@ -57,7 +57,7 @@ body{
     left: 5px;
     right: 5px;
     font-size: 12px;
-    color: grey;
+    color: rgb(87, 85, 85);
     text-align: center;
     position: fixed;
     resize: horizontal;
@@ -68,13 +68,17 @@ body{
 }
 
 a:visited{
-    color: rgb(152, 194, 214);
+    color: rgb(100, 180, 218);
 }
 
 .captionbox {
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(57, 104, 175);
+    border-color:  rgb(18, 71, 151);
     padding: 10px;
     margin: 100;
+}
+
+a:link, a:visited, a:active {
+    color: rgb(17, 38, 131);
 }
